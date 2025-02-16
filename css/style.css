@@ -3,7 +3,8 @@
     --primario-oscuro: #89119d;
     --secundario: #ffce00;
     --secundario-oscuro: rgb(232, 181, 10);
-    
+    --selected: #711781;
+
     --fuente-principal: "Staatliches", cursive;
 }
 
@@ -108,6 +109,10 @@ header {
 .producto {
     background-color: var(--primario-oscuro);
     padding: 1rem;
+}
+.producto:hover {
+    background-color: var(--selected);
+    cursor: pointer;
 }
 .producto__nombre {
     font-size: 4rem;
